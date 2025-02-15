@@ -1,7 +1,7 @@
 module "lambda" {
   source = "./modules/lambda"
   lambda_name = "dev_env_snowflake" 
-  s3_bucket = "edl-mig" 
+  s3_bucket = "edl-mig-feature-branch-final" 
   s3_key = "global_pay/bronze_edl_mig/app.zip"   
 }
 
