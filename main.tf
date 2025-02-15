@@ -13,6 +13,7 @@ EOT
   }
 
   depends_on = [module.lambda]
+  depends_on = [module.lambda]
 }
 
 
